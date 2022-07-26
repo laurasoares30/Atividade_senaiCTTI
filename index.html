@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade</title>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="#023535">
+        <font color="white">
+            <table align="center" widht="400" height="500">
+                <tr><td>
+    
+                    <fieldset>
+                        <legend>CADASTRO</legend>
+                        <form action="enviar.php" method="post" name="cadastro">
+                            <table>
+                                <tr>
+                                    <!-- dados pessoa -->
+                                </tr>
+                                <tr>
+                                    <td><label>NOME</label></td>
+                                    <td><input type="text" name="nome" id="nome" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">CPF</label></td>
+                                    <td><input type="number" name="cpf" id="cpf" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">TELEFONE</label></td>
+                                    <td><input type="number" name="tel" id="tel" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">E-MAIL</label></td>
+                                    <td><input type="email" name="email" id="email" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">ENDEREÇO</label></td>
+                                    <td><input type="text" name="rota" id="rota" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">CNH</label></td>
+                                    <td>
+                                        <input type="radio" name="cnh" id="cnh" value="true" required>sim
+                                        <input type="radio" name="cnh" id="cnh" value="false" required>não
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                            
+                        </form>
+                    </fieldset>
+                        <br/>
+                    <fieldset>
+                        <legend></legend>
+                        <form action="enviar.php" method="post" name="cadastro">
+                            <table>
+                                <tr>
+                                    <td><label for="">E-mail</label></td>
+                                    <td><input type="email" name="email" id="email" required></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><label for="">Senha</label></td>
+                                    <td><input type="password" name="senha" id="senha" required></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </fieldset>
+                    
+                </td></tr>
+                <tr>
+                    <td>
+                        <a href="veiculo.html">
+                            <button>avançar</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </font>
+        
+    </body>
+</html>
